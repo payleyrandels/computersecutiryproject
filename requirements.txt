@@ -1,0 +1,17 @@
+
+## 🚀 Usage
+
+- Run bob.py → to send encrypted message to Alice
+- Run alice.py → to decrypt Bob’s message and reply
+
+Files used:
+- `bob_to_alice.txt` → contains Bob’s ciphertext
+- `alice_to_bob.txt` → contains Alice’s encrypted reply
+
+## 🔒 Security
+
+- AES-256 (CBC mode)
+- PBKDF2HMAC with SHA-256 and salt
+- Random IV for every message
+- PKCS7 padding
+
